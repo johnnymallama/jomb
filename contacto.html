@@ -5,32 +5,55 @@
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
     <body>
-        <div id="principal">
-            <header>
-                <div id="logo">
-                    <center><h1>BLONDIE'S Burguer & Dog</h1></center>
-                    <center><p>Tu mejor Elecciín</p></center>   
+        <div class="row">
+            <div class="col-5">
+                <img class="logoUno" src="img/logo.png">
+                <div class="tituloLogoUno">
+                    <h1>BLONDIE'S Burguer & Dog</h1>
+                    <p>Tu mejor Elección</p>
                 </div>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="inicio.html">INICIO</li>
-                        <li><a href="menu.html">MENU</li>
-                        <li><a href="hostoria.html">HISTORIA</li>
-                        <li><a href="contacto.html">CONTACTO</li>
-                    </ul>
-                </nav>
-            </header>
-            <section id="categorias">
-                <section class="uno">                                                          
-                    <input type="text" name="q" id="site-search-input" autocomplete="off" value="Buscar" class="gray"/>
-                    <span id="g-search-button"></span>                         
-                </section>
-            
-      </div>
-                <div class="contenido">
-                    <p>en esta pagina va la historia, mision, vision y pie de pagina</p>
-                    
-                </div>               
-    
+            </div>
+            <div class="col-5" style="height: 140px;">
+                <ul id="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="historia.html">HISTORIA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="background-color: white; border: 1px solid black;">
+            <div class="col-5" style="background-color: white;">
+                <a style="background-color: white;" href="contacto.html"><img src="img/ubicacion.png" class="tamanoSocial"></a>
+            </div>
+            <div class="col-5" style="background-color: white;">
+                <input type="search" style="background-color: white; float: right;" name="googlesearch">
+                <a style="background-color: white;" href="https://www.instagram.com/?hl=es-la"><img src="img/instagram.png" style="float: right;" class="tamanoSocial"></a>
+                <a style="background-color: white;" href="https://www.facebook.com/JavierMallamaB/"><img src="img/facebook.jpg" style="float: right;" class="tamanoSocial"></a>
+            </div>
+        </div>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.233145347628!2d-75.60662598485241!3d6.232966495488184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442993eeb42edd%3A0x75818b7e73dfbd5e!2sCentro%20Comercial%20Los%20Molinos!5e0!3m2!1ses!2sco!4v1599418584819!5m2!1ses!2sco" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="row filaTexto">
+            <div class="col-5-texto">
+                <h1 class="textoCenter">Escribenos Es Muy Importante Tu Opinión</h1>
+                <h2 class="textoCenter">Aqui Tienes Tu Mejor Elección</h2>
+                <h3 class="textoJustificado">Ademas de descargarse la app para conseguir esta comida, tambien puede interesarte el paquete promocional con descuentos en varios productos. Para ello hay que participar en BLONDIE'S Burguer & Dog, concurso cuyo ibjetivo es compartir una foto de tu hamburguesa u otro de nuestros productos en los canales de Facebook o Instagram de nuestro local. El ganador disfrutara de hamburguesa gratis con su pareja.</h3>
+                <h2 class="textoCenter">CONTACTENOS</h2>
+                <h5 class="textoCenter">Centro Comercial Los Molinos</h5>
+                <h5 class="textoCenter">10 a.m - 10 p.m</h5>
+                <h5 class="textoCenter">info@blondies.com.co</h5>
+            </div>
+            <div class="col-5-texto textoCenter">
+                <form class="contacto">
+                    <div><label>Tu Nombre:</label><input type='text' value=''></div>
+                    <div><label>Tu Apellido:</label><input type='text' value=''></div>
+                    <div><label>Tu Email:</label><input type='text' value=''></div>
+                    <div><label>Mensaje:</label><textarea rows='6'></textarea></div>
+                    <div><input type='submit' value='Envia Mensaje'></div>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

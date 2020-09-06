@@ -5,32 +5,48 @@
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
     <body>
-        <div id="principal">
-            <header>
-                <div id="logo">
-                    <center><h1>BLONDIE'S Burguer & Dog</h1></center>
-                    <center><p>Tu mejor Elecciín</p></center>   
+        <div class="row">
+            <div class="col-5">
+                <img class="logoUno" src="img/logo.png">
+                <div class="tituloLogoUno">
+                    <h1>BLONDIE'S Burguer & Dog</h1>
+                    <p>Tu mejor Elección</p>
                 </div>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="inicio.html">INICIO</li>
-                        <li><a href="menu.html">MENU</li>
-                        <li><a href="hostoria.html">HISTORIA</li>
-                        <li><a href="contacto.html">CONTACTO</li>
-                    </ul>
-                </nav>
-            </header>
-            <section id="categorias">
-                <section class="uno">                                                          
-                    <input type="text" name="q" id="site-search-input" autocomplete="off" value="Buscar" class="gray"/>
-                    <span id="g-search-button"></span>                         
-                </section>
-            
-      </div>
-                <div class="contenido">
-                    <p>Mision, vision pie</p>
-                    
-                </div>               
-    
+            </div>
+            <div class="col-5" style="height: 140px;">
+                <ul id="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="historia.html">HISTORIA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="background-color: white; border: 1px solid black;">
+            <div class="col-5" style="background-color: white;">
+                <a style="background-color: white;" href="contacto.html"><img src="img/ubicacion.png" class="tamanoSocial"></a>
+            </div>
+            <div class="col-5" style="background-color: white;">
+                <input type="search" style="background-color: white; float: right;" name="googlesearch">
+                <a style="background-color: white;" href="https://www.instagram.com/?hl=es-la"><img src="img/instagram.png" style="float: right;" class="tamanoSocial"></a>
+                <a style="background-color: white;" href="https://www.facebook.com/JavierMallamaB/"><img src="img/facebook.jpg" style="float: right;" class="tamanoSocial"></a>
+            </div>
+        </div>
+        <div class="row filaTexto">
+            <div class="col-5-texto">
+                <h3 class="textoJustificado textoHistoria">Es una empresa que nace debido a las pocas ofertas de empleo que existe en nuestro país, así que en familia tomamos la decisión de buscar nuevas expectativas económicas, logrando poco a poco de ir consiguiendo los equipos de trabajo, para poder montar el negocio, en una visita al exterior pude ver algunos referentes los cuales los tuve en cuenta, por lo que surgió el nombre de “Blondie’s Burguer & Dog”, posteriormente me decidí a montar le negocio ubicado en el barrio belén cerca al centro comercial los molinos de Medellín, de donde despachamos nuestros productos a todos los clientes que hasta ahora son nuestro pie de fuerza para seguir adelante.</h3>
+            </div>
+            <div class="col-5-imagen">
+                <img style="width: 400px;" src="img/casita.png">
+            </div>
+        </div>
+        <div class="row filaTexto">
+            <div class="col-5-texto">
+                <h3 class="textoJustificado textoHistoria">Nuestra visión es crear una empresa exitosa de comidas rápidas. Para el año 2020 la empresa se posicionará en calidad, atención y servicio al cliente, además darles la excelencia a nuestros productos de comidas rápidas con alta calidad, nutritivos sanos y frescos, en función de satisfacer las necesidades del consumo, proporcionando en forma permanente bienestar y calidad de vida.</h3>
+            </div>
+            <div class="col-5-texto">
+                <h3 class="textoJustificado textoHistoria">Nuestra misión es satisfacer las necesidades de nuestros clientes, brindándoles nuestros servicios que consiste en: una variedad de comidas rápidas para cualquier ocasión, somos una gran empresa con un local que brinda la mejor calidad, servicio, precio y sabor.</h3>
+            </div>
+        </div>
     </body>
 </html>

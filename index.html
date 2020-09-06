@@ -6,87 +6,62 @@
         <title>www.blondies.com</title>
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
-    <body class="principal">
-        <div class="Row">
-            <div class="Column">
-                <img class="blondies" src="img/logo.png">
-                <div class="titulo">
-                    <center><h1>BLONDIE'S Burguer & Dog</h1></center>
-                    <center><p>Tu mejor Elección</p></center>  
+    <body>
+        <div class="row">
+            <div class="col-5">
+                <img class="logoUno" src="img/logo.png">
+                <div class="tituloLogoUno">
+                    <h1>BLONDIE'S Burguer & Dog</h1>
+                    <p>Tu mejor Elección</p>
                 </div>
             </div>
-            <div class="Column menuTitulo">
-                <div id="inicio"><a href="">INICIO</a></div>
-                <div id="menu"><a href="">MENU</a></div>
-                <div id="historia"><a href="historia.html">HISTORIA</a></div>
-                <div id="contacto"><a href="contacto.html">CONTACTO</a></div>
-            </div>
-        </div>
-        <div class="Row" style="background-color: white; border: 1px solid black;">
-            <div class="Column">
-                <a href="#"><img src="img/ubicacion.png" width="25" height="25"></a>
-            </div>
-            <div class="Column" style="float: right;">
-                <a href="#"><img src="img/instagram.png" width="25" height="25"></a>
-                <a href="#"><img src="img/facebook.jpg" width="25" height="25"></a>
-                <input type="search" name="googlesearch">
-            </div>
-        </div>
-        <div class="Row" style="padding: 20px;">
-            <div class="Column imagenCenter">
-                <div class="Row textoCenter">
-                    <img class="imagenCenter tamanoUno" src="img/perro2.jpg"/>
-                </div>
-                <div class="Row textoCenter">
-                    <img class="imagenCenter tamanoUno" src="img/hamburguesa1.jpg"/>
-                </div>
-            </div>
-            <div class="Column textoCenter">
-                <img class="imagenCenter tamanoDos" src="img/disftuta.png">
-            </div>
-            <div class="Column textoCenter">
-                <img class="imagenCenter tamanoDos" src="img/gorro.png">
+            <div class="col-5" style="height: 140px;">
+                <ul id="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="historia.html">HISTORIA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
             </div>
         </div>
 
-        <div class="Row" style="padding: 20px;">
-            <div class="Column textoCenter">
-                <img class="imagenCenter tamanoUno" src="img/tacos1.jpg"/>
+        <div class="row" style="background-color: white; border: 1px solid black;">
+            <div class="col-5" style="background-color: white;">
+                <a style="background-color: white;" href="contacto.html"><img src="img/ubicacion.png" class="tamanoSocial"></a>
             </div>
-            <div class="Column textoCenter">
-                <img class="imagenCenter" style="width: 400px;" src="img/salchipapas.jpg">
-            </div>
-            <div class="Column textoCenter">
-                <img class="imagenCenter" style="width: 500px;" src="img/tacos.jpg">
+            <div class="col-5" style="background-color: white;">
+                <input type="search" style="background-color: white; float: right;" name="googlesearch">
+                <a style="background-color: white;" href="https://www.instagram.com/?hl=es-la"><img src="img/instagram.png" style="float: right;" class="tamanoSocial"></a>
+                <a style="background-color: white;" href="https://www.facebook.com/JavierMallamaB/"><img src="img/facebook.jpg" style="float: right;" class="tamanoSocial"></a>
             </div>
         </div>
 
-        <div class="Row" style="background-color: white;">
-            <div class="Column textoCenter">
-                <img class="imagenCenter" style="width: 200px;" src="img/domiciliario.png">
+        <div class="row">
+            <div class="col-33-center">
+                <img class="tamanoUno" src="img/perro2.jpg"/>
+                <img class="tamanoUno" src="img/hamburguesa1.jpg"/>
             </div>
-            <div class="Column textoCenter">
-                <div class="Row textoCenter" style="background-color: white;">
-                    <div class="Column">
-                        <h1 style="color: red">DOMICILIO</h1>
-                    </div>
-                </div>
-                <div class="Row textoCenter" style="background-color: white;">
-                    <div class="Column" style="text-align: right;">
-                        <img class="imagenCenter" style="width: 100px;" src="img/whatsApp.png">
-                    </div>
-                    <div class="Column" style="text-align: left;">
-                        <h2>305 000 0000</h2>
-                    </div>
-                </div>
-                <div class="Row textoCenter" style="background-color: white;">
-                    <div class="Column" style="text-align: right;">
-                        <img class="imagenCenter" style="width: 75px;" src="img/TELEFONO.png">
-                    </div>
-                    <div class="Column" style="text-align: left;">
-                        <h2>305 000 0000</h2>
-                    </div>
-                </div>
+            <div class="col-33-center">
+                <img class="tamanoDos" src="img/disftuta.png">
+            </div>
+            <div class="col-33-center">
+                <img class="tamanoDos" src="img/gorro.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-33-center">
+                <img class="tamanoUno" src="img/tacos1.jpg"/>
+            </div>
+            <div class="col-33-center">
+                <img style="width: 400px;" src="img/salchipapas.jpg">
+            </div>
+            <div class="col-33-center">
+                <img style="width: 500px;" src="img/tacos.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10-center">
+                <img style="width: 50%;" src="img/domicilios.png">
             </div>
         </div>
     </body>
