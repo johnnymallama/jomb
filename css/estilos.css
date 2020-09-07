@@ -112,6 +112,12 @@
 	width: 400px;
 	height: 400px;
 }
+.tamanoTres {
+	width: 400px;
+}
+.tamanoCuatro {
+	width: 500px;
+}
 .textoCenter {
 	background-color: #f2f2f2;
 	text-align: center;
@@ -182,4 +188,18 @@
 	width: 30px;
 	height: 30px;
 	background-color: white;
+}
+.tamanoMenu {
+	width: 150px; 
+	background-color: white;
+}
+.tamanoPaginaMenu {
+	width: 50%;
+}
+.tamanoImgHistoria {
+	width: 400px;
+}
+.tamanoMapa {
+	width: 100%; 
+	height: 500px;
 }
